@@ -5,7 +5,7 @@ needle = 23
 
 
 # * Implementing a linear search (Python's "if i in list:" is a linear search)
-def linear_search(haystack: List, needle: int) -> List:
+def linear_search(haystack: List, needle: int):
     for i in range(len(haystack)):
         if haystack[i] == needle:
             print(f'Found it at {i}')
