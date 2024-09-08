@@ -2,6 +2,7 @@
 
 int main()
 {
+    char* test = "Paul\n";
     int nums[] = {5, 2, 9, 0, 7};
     int len = sizeof(nums) / sizeof(nums[0]);
 

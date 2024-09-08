@@ -2,7 +2,7 @@ from typing import List
 
 data = [2, 6, 9, 22, 43, 67, 99]
 target = 8
-
+# comment 
 
 def binary_search(data: List[int], target: int) -> bool:
     start = 0
